@@ -20,6 +20,8 @@ for i in "${!CHANGES[@]}"; do
         COMMIT_MESSAGE="${NAME[$i]} ADDED";
     elif [ ${CHANGES[$i]}  == "AM" ]; then  
         COMMIT_MESSAGE="${NAME[$i]} ADDED";
+    elif [ ${CHANGES[$i]}  == "A" ]; then  
+        COMMIT_MESSAGE="${NAME[$i]} ADDED";
     fi
     git add ${NAME[$i]};
     ECHO "Commit message is: $COMMIT_MESSAGE";    
