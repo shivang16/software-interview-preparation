@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 CUR_DIR=$(pwd)
 PROJECT_DIR="${CUR_DIR}"
 FILES_TO_PUSH=$(git status --porcelain | awk '{print $2}')
