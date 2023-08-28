@@ -1,37 +1,42 @@
-// https://leetcode.com/problems/longest-word-in-dictionary/
-class TrieNode{
-    unordered_map <char,TrieNode*> child;
-    bool isEnd;
-    TrieNode(){
-        isEnd = false;
-    }
-
-    void insert(TrieNode* root,string s){
-        TrieNode* temp = root;
-        for(auto i:s){
-            if(temp->child[i]==temp->child.end())
-                temp->child[i] = new TrieNode();
-            temp = temp->child[i];
-        }
-        temp->isEnd = true;
-    }
-
-    bool search(TrieNode* root,string s){
-        TrieNode* temp = root;
-        for(auto i:s){
-            if(temp->child[i]==temp->child.end())
-                return false;
-            temp = temp->child[i];
-        }
-        return temp->isEnd;
-    }
-};
 class Solution {
+private: 
+    struct Node{
+        Node* arr[26];
+        bool end = false;
+    };
 public:
-
+    Node* root = new Node();
+    void trie_insert(string &word){
+        Node* node = root;
+        for(int i = 0; i < word.size(); i++){
+            if(node->arr[word[i] - 'a'] == NULL){
+                node->arr[word[i] - 'a'] = new Node();
+            }
+            node = node->arr[word[i] - 'a'];
+        }
+        node->end = true;
+    }
+    bool isValid(string &word, Node* curr){
+        for(int i = 0; i < word.size(); i++){
+            curr = curr->arr[word[i] - 'a'];
+            if(!curr->end) return false;
+        }
+        return true;
+    }
     string longestWord(vector<string>& words) {
-        TrieNode* root = new TrieNode();
-        vector <bool> ans
-        for(auto )
+        string ans = "";
+        for(auto w: words){
+            trie_insert(w);
+        }    
+        for(int i =0; i < words.size(); i++){
+            if(isValid(words[i], root)){
+                if(words[i].length() > ans.length()){
+                    ans = words[i];
+                }else if(words[i].length() == ans.length()){
+                    ans = min(words[i], ans);
+                }
+            }
+        }
+        return ans;
     }
 };
