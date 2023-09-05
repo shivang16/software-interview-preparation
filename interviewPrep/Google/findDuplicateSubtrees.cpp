@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/find-duplicate-subtrees/description/
+// https://leetcode.com/problems/find-duplicate-subtrees/description
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
