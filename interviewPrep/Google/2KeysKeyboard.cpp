@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/2-keys-keyboard/description/
+// https://leetcode.com/problems/2-keys-keyboard/description
 class Solution {
 public:
     int minSteps(int n) {
