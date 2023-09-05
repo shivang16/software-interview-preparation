@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/rank-transform-of-a-matrix/description/
+
 class Dsu {
 private:
     vector<int>parent;
