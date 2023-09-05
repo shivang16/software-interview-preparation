@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/possible-bipartition/
 class Solution {
 public:
     bool dfs(vector <int> A[],vector <int>& col,int ind,int crnt){
