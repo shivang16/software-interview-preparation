@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/count-square-submatrices-with-all-ones/description/
 class Solution {
 public:
     int countSquares(vector<vector<int>>& matrix) {
