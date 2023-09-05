@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/min-cost-climbing-stairs/
 class Solution {
 public:
     int dp[10000] = {-1};
