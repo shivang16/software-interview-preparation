@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/
 class Solution {
 public:
     bool isNStraightHand(vector<int>& nums, int k) {
