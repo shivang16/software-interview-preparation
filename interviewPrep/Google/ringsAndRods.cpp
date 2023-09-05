@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/rings-and-rods/
+// https://leetcode.com/problems/rings-and-rods
 class Solution {
 public:
     int countPoints(string ring) {
