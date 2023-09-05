@@ -1,3 +1,4 @@
+// https://leetcode.ca/2018-10-20-1055-Shortest-Way-to-Form-String/
 class Solution {
 public:
     /**
