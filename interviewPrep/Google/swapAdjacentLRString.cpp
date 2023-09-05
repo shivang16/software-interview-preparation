@@ -1,5 +1,5 @@
 
-// https://leetcode.com/problems/swap-adjacent-in-lr-string/description/
+// https://leetcode.com/problems/swap-adjacent-in-lr-string/description
 class Solution {
 public:
     bool canTransform(string start, string end) {
