@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/single-threaded-cpu/description/
 class Solution {
 public:
     typedef pair<int, int> T; 
