@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/find-and-replace-in-string/description/
+// https://leetcode.com/problems/find-and-replace-in-string/description
 class Solution {
 public:
     static bool comparator(pair <int,pair <string,string>> &p1,  pair <int,pair <string,string>> &p2){
