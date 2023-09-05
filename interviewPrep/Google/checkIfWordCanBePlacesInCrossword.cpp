@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword/description/
+// https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword/description
 class Solution {
 public:
     bool match(string x,string y){
