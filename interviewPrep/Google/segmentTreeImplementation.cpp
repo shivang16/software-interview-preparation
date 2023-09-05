@@ -1,3 +1,4 @@
+
 void build(int ind,int low,int high,vector <int>& arr,vector <int>& seg){
     if(low==high){
         seg[ind] = arr[low];
