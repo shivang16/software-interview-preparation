@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/find-all-people-with-secret/description/
+// https://leetcode.com/problems/find-all-people-with-secret/description
 class Solution {
 public:
     vector<int> findAllPeople(int n, vector<vector<int>>& meetings, int firstPerson) { 
