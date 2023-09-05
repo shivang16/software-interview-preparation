@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/minimum-size-subarray-sum/description/
 class Solution {
 public:
     int minSubArrayLen(int target, vector<int>& nums) {
