@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/minimum-falling-path-sum/description/
+// https://leetcode.com/problems/minimum-falling-path-sum/description
 class Solution {
 public:
     int minFallingPathSum(vector<vector<int>>& matrix) {
