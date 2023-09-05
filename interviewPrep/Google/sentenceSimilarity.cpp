@@ -1,3 +1,4 @@
+// https://www.lintcode.com/problem/856/
 class Solution {
 public:
     /**
