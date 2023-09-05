@@ -1,38 +1,33 @@
+// https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/submissions/
 class Solution {
 public:
     int maxFreq(string s, int maxLetters, int minSize, int maxSize) {
-        
+        int n = s.size();
         unordered_map<string,int> mp;
-        for(int k=minSize;k<=minSize;k++){
-            unordered_map<char,int> track;
+        for(int sz=minSize;sz<=minSize;sz++){
+            int l = 0, r = 0;
+            unordered_map <char,int> freqMp;
             int count = 0;
-            int i=0,j=0;
-
-            while(j<s.length()){
-                track[s[j]]++;
-                if(track[s[j]] == 1){
+            while(r<n){
+                freqMp[s[r]]++;
+                if(freqMp[s[r]]==1)
                     count++;
-                }
-                
-
-                if((j-i+1)<k){
-                    j++;
-                }else{
-                    if(count <= maxLetters){
-                        mp[s.substr(i,(j-i+1))]++;
-                    }
-                    track[s[i]]--;
-                    if(track[s[i]] == 0)
+                if(r-l+1==sz){
+                    if(count<=maxLetters)
+                        mp[s.substr(l,r-l+1)]++;
+                    freqMp[s[l]]--;
+                    if(freqMp[s[l]]==0)
                         count--;
-                    i++;j++;
+                    l++;
                 }
+                r++;
             }
         }
-        int mx = 0;
+
+        int ans = 0;
         for(auto i:mp){
-            // cout<<i.first<<" "<<i.second<<endl;
-            mx = max(mx,i.second);
+            ans = max(ans,i.second);
         }
-        return mx;
+        return ans;
     }
 };
