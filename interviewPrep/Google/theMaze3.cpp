@@ -1,3 +1,4 @@
+
 class Solution {
     class Point implements Comparable<Point> {
         int distance;  // distance from ball
