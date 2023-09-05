@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/triangle/description/
+// https://leetcode.com/problems/triangle/description
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
