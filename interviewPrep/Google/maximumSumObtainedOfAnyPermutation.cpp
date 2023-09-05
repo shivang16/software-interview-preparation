@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/maximum-sum-obtained-of-any-permutation/description/
+// https://leetcode.com/problems/maximum-sum-obtained-of-any-permutation/description
 class Solution {
 public:
     int maxSumRangeQuery(vector<int>& nums, vector<vector<int>>& requests) {
