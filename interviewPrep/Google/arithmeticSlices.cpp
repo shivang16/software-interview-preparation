@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/arithmetic-slices/description/
+
 class Solution {
 public:
     int numberOfArithmeticSlices(vector<int>& nums) {
