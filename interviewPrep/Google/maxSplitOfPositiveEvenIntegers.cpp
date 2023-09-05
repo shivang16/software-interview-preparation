@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/maximum-split-of-positive-even-integers/solutions/1783191/c-easy-simulation-o-maximumnumbers-time-o-1-space/
 class Solution {
 public:
     vector<long long> maximumEvenSplit(long long n) {
