@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/shortest-bridge/submissions/
 class Solution {
 public:
     int n;
