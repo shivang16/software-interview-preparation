@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/random-pick-with-blacklist/
 class Solution {
 private: 
     // {Wgt,{l,r}}
