@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/description/
 class Solution {
     vector<vector<int>>dp;
     vector<vector<int>>freq;
