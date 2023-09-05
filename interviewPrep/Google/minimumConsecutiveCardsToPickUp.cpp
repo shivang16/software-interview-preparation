@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/
 class Solution {
 public:
     int minimumCardPickup(vector<int>& cards) {
