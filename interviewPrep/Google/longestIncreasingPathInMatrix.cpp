@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/
+// https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description
 class Solution {
 public:
     int n,m;
