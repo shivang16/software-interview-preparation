@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/description/
+// https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination
 class Solution {
 public:
     int m,n;
