@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/
+// https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description
 class Solution {
 public:
     int maxScore(vector<int>& cardPoints, int k) {
