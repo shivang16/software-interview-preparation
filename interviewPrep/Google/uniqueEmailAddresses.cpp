@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/unique-email-addresses/
 class Solution {
 public:
     string processEmail(string email){
