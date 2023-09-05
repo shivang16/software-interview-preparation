@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/find-eventual-safe-states/submissions/
+// https://leetcode.com/problems/find-eventual-safe-states/submissions
 class Solution {
 public:
     bool dfs(vector<vector<int>> &graph, int node, vector<int> &state)
