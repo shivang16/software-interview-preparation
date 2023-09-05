@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/longest-string-chain/description/
+// https://leetcode.com/problems/longest-string-chain/description
 class Solution {
 public:
     bool isPredecessor(string s1,string s2){
