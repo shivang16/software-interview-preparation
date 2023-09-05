@@ -24,12 +24,33 @@ public:
         }
 
     }
+    typedef pair <int,pair <int,int>> pr;
     int swimInWater(vector<vector<int>>& grid) {
         n = grid.size();
-        int mx = grid[0][0];
-        vector <vector <int>> vis(n,vector <int>(n,-1));
-        int ans = INT_MAX;
-        dfs(grid,0,0,vis,mx,ans);
-        return ans;
+        // int mx = grid[0][0];
+        // vector <vector <int>> vis(n,vector <int>(n,-1));
+        // int ans = INT_MAX;
+        // dfs(grid,0,0,vis,mx,ans);
+        // return ans;
+        vector <vector <bool>> vis(n,vector <bool>(n,false));
+        
+        priority_queue <pr,vector <pr>, greater <pr>> pq;
+        pq.push({grid[0][0],{0,0}});
+        vis[0][0] = true;
+        while(pq.size()){
+            int time = pq.top().first;
+            auto [x,y] = pq.top().second;
+            pq.pop();
+            if(x==n-1 && y==n-1) return time;
+            for(int i=0;i<4;i++){
+                int nx = x+X[i], ny = y+Y[i];
+                if(isValid(nx,ny) && !vis[nx][ny]){
+                    int newTime = max(time,grid[nx][ny]);
+                    pq.push({newTime,{nx,ny}});
+                    vis[nx][ny] = true;
+                }
+            }
+        }
+        return INT_MAX;
     }
 };
