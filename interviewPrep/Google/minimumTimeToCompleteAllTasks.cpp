@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/minimum-time-to-complete-all-tasks/submissions/
 class Solution {
 public:
     static bool comp(vector <int> &t1,vector <int> &t2){
