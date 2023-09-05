@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/minimum-number-of-refueling-stops/solutions/3499372/solution/
 class Solution {
 public:
     int minRefuelStops(int target, int fuel, vector<vector<int>>& a) {
