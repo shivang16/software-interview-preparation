@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/range-module/
 class RangeModule {
 public:
     map<int, int> ranges;
