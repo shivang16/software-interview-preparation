@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/submissions/
 class Solution {
 public:
     int minPairSum(vector<int>& nums) {
