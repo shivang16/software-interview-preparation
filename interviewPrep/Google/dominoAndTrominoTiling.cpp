@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/
 class Solution {
     int mod = 1e9+7;
     int solve(int n,vector<int>&dp){
