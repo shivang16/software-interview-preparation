@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/submissions/
 class disjointSet{
     public:
     vector<int>parent,size;
