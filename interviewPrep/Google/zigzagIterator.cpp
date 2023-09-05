@@ -1,3 +1,4 @@
+// https://www.lintcode.com/problem/540/
 class ZigzagIterator {
 private:
     
