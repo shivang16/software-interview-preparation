@@ -1,4 +1,5 @@
-https://leetcode.com/playground/gugincJX
+// https://leetcode.com/playground/gugincJX
+// https://leetcode.ca/all/1102.html
 // OJ: https://leetcode.com/problems/path-with-maximum-minimum-value/
 // Time: O(MNlog(MN))
 // Space: O(MN)
