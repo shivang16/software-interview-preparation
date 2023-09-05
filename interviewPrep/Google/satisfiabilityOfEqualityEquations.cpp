@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/satisfiability-of-equality-equations/
 class Solution {
 public:
     int parent[26];
