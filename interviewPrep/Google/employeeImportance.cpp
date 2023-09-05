@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/employee-importance/description/
+// https://leetcode.com/problems/employee-importance/
 /*
 // Definition for Employee.
 class Employee {
