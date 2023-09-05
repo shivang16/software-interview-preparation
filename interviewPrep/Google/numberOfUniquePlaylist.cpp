@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/number-of-music-playlists/solutions/3869637/simple-c-dfs-dp-iterative-dp/
 class Solution {
 public:
     int numMusicPlaylists(int n, int goal, int k) {
