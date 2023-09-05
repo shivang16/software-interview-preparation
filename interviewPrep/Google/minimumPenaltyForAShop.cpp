@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/minimum-penalty-for-a-shop/
 class Solution {
 public:
     int bestClosingTime(string customers) {
