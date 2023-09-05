@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/text-justification/description/
 class Solution {
 public:
     string getLine(int l,int r,vector <string>& words,int maxWidth,bool isLast){
