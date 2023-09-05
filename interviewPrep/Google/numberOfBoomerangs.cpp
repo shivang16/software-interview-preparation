@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/number-of-boomerangs/
 class Solution {
 public:
     long long dis(vector <int>& p1,vector <int> &p2){
