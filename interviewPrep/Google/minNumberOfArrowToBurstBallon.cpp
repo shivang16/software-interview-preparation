@@ -1,5 +1,4 @@
-// https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/
-class Solution {
+// https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/class Solution {
 public:
     static bool comp(vector <int> &v1,vector <int> &v2){
         return v1[1]<v2[1];
