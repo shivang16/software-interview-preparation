@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/describe-the-painting/description/
+// https://leetcode.com/problems/describe-the-painting/description
 class Solution {
 public:
     
