@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/k-radius-subarray-averages/submissions/
 class Solution {
 public:
     vector<int> getAverages(vector<int>& nums, int k) {
