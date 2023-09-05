@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/sort-integers-by-the-power-value/submissions/
 class Solution {
 public:
     int findPower(int n,unordered_map <int,int> &M){
