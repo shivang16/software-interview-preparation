@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/snapshot-array/description/
+// https://leetcode.com/problems/snapshot-array/
 lass SnapshotArray {
 public:vector<map<int,int>>v;
 int s=0;
