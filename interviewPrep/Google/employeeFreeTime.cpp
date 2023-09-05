@@ -1,3 +1,4 @@
+// https://www.lintcode.com/problem/850
 /**
  * Definition of Interval:
  * class Interval {
