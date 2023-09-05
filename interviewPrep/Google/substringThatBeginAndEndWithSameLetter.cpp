@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/substrings-that-begin-and-end-with-the-same-letter/
 int nC2(int n){
     return n*(n-1)/2;
 }
