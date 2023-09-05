@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/student-attendance-record-i/submissions/
+// https://leetcode.com/problems/student-attendance-record-i/
 class Solution {
 public:
     bool checkRecord(string s) {
