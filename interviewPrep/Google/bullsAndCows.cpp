@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/bulls-and-cows/
 class Solution {
 public:
     string getHint(string secret, string guess) {
