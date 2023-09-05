@@ -25,7 +25,7 @@ public:
                     // cout << c << " " << x << " " << ans << endl;
                     if(Mp.find(x)!=Mp.end()){
                         ans+=Mp[x];
-                        Mp.erase(x);
+                        Mp[x] = 0;
                     }
                 }
             }
