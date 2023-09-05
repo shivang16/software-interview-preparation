@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/minimum-cost-to-set-cooking-time/submissions/1034112312/
 class Solution {
 public:
     int findCost(int &startAt,int moveCost,int pushCost,int val){
