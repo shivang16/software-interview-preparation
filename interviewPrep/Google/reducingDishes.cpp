@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/reducing-dishes/
 class Solution {
 public:
     int getAns(vector <int>& sat,int ind,int time,vector <vector  <int>> &dp){
