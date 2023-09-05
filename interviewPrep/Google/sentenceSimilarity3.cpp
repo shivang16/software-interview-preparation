@@ -1,3 +1,4 @@
+// https://leetcode.ca/2021-06-04-1813-Sentence-Similarity-III/
 class Solution {
 public:
     bool areSentencesSimilar(string sentence1, string sentence2) {
