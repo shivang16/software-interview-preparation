@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/find-original-array-from-doubled-array/description/
+// https://leetcode.com/problems/find-original-array-from-doubled-array/description
 class Solution {
 public:
     vector<int> findOriginalArray(vector<int>& changed) {
