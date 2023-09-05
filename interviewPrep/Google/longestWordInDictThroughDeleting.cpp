@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/
 class Solution {
 public:
     bool isSubSeq(string s,string t){
