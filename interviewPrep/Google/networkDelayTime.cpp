@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/network-delay-time/description/
+// https://leetcode.com/problems/network-delay-time
 class Solution {
 public:
     int networkDelayTime(vector<vector<int>>& times, int n, int k) {
