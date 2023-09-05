@@ -1,3 +1,4 @@
+// https://www.lintcode.com/problem/817/
 class SegmentTree{
     private: 
         int n;
