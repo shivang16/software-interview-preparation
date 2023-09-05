@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/submissions/
 class Solution {
 public:
     int getAns(vector<int>& prices,vector <vector <int>> &dp,int ind,int k){
@@ -5,7 +6,7 @@ public:
         if(dp[ind][k]!=-1) return dp[ind][k];
         int notIncluded = getAns(prices,dp,ind+1,k); // not considering this element 
         int included = 0;
-        if(k%2!=0){
+        if(k%2!=0){ // Everytime we have two options-> buy or sell, so if k%2==0 (we have no holding, so we have to buy)
             included = prices[ind]+getAns(prices,dp,ind+1,k-1);
         }else{
             included = -prices[ind]+getAns(prices,dp,ind+1,k-1);
