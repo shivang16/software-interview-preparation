@@ -1,3 +1,4 @@
+
 bool isConfusingNumber(int n){
     unordered_map <char,char> M;
     M['0'] = '0';
