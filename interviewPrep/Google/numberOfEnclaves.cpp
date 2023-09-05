@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/number-of-enclaves/description/
 class Solution {
 public:
     int n,m;
