@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/knight-probability-in-chessboard/submissions/
 class Solution {
 public:
     int X[8]={ 2, 1, -1, -2, -2, -1, 1, 2 };
