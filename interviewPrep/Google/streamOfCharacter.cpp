@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/stream-of-characters/
 class TrieNode{
     public:
         unordered_map <char,TrieNode*> child;
