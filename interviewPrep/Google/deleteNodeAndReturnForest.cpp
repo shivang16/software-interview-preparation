@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/delete-nodes-and-return-forest/submissions/
+// https://leetcode.com/problems/delete-nodes-and-return-forest/submissions
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
