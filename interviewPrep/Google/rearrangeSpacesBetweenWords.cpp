@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/rearrange-spaces-between-words/description/
+// https://leetcode.com/problems/rearrange-spaces-between-words
 class Solution {
 public:
     vector <string> split(string text,string del){
