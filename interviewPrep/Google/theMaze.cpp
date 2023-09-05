@@ -1,3 +1,4 @@
+// https://www.lintcode.com/problem/787/
 class Solution {
 private:
     int hash(vector<int> &p) { return p[0] * 1000 + p[1]; }
