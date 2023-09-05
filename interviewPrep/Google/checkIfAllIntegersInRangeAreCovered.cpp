@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/description/
+// https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/description
 class Solution {
 public:
     bool isCovered(vector<vector<int>>& ranges, int left, int right) {
