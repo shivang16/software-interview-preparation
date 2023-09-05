@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/word-search-ii/submissions/1024138528/
 struct TrieNode{
     vector<TrieNode*> children;
     bool end;
