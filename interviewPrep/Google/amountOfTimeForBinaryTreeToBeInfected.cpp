@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/submissions/1040082182/
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -11,7 +12,7 @@
  */
 class Solution {
 public:
-    unordered_map <int,vector <int>> adj;
+    map <int,vector <int>> adj;
     void createAdj(TreeNode* root,int prev){
         if(!root) return;
         
@@ -20,11 +21,12 @@ public:
             adj[root->val].push_back(root->left->val);
         }
         
-        adj[root->val].push_back(prev);
+        if(prev!=-1)
+            adj[root->val].push_back(prev);
         
         if(root->right){
-            adj[root->val].push_back(root->right->val);
             createAdj(root->right,root->val);
+            adj[root->val].push_back(root->right->val);
         }
         
     }
@@ -34,15 +36,16 @@ public:
         queue <int> Q;
         unordered_map <int,bool> vis;
         Q.push(start);
+        vis[start] = true;
         int time = 0;
         while(!Q.empty()){
             int sz = Q.size();
             while(sz--){
                 int u = Q.front();
                 Q.pop();
-                vis[u] = true;
                 for(auto v:adj[u]){
-                    if(v!=-1 && !vis[v]){
+                    if(vis.count(v)==0){
+                        vis[v] = true;
                         Q.push(v);
                     }
                 }
