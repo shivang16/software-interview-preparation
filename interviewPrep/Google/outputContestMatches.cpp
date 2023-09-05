@@ -1,4 +1,5 @@
 // https://www.lintcode.com/problem/879/?fromId=207&_from=collection
+
 class Solution {
 public:
     /**
