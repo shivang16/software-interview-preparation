@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/detect-squares/submissions/
+// https://leetcode.com/problems/detect-squares/submissions
 class DetectSquares {
 public:
     const static int nax = 1e3 + 1;
