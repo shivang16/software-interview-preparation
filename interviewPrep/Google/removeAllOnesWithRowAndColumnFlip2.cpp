@@ -1,5 +1,6 @@
+// https://walkccc.me/LeetCode/problems/2174/
 class Solution {
- public:
+ public:https://walkccc.me/LeetCode/problems/2174/
   int removeOnes(vector<vector<int>>& grid) {
     const int m = grid.size();
     const int n = grid[0].size();
