@@ -2,7 +2,13 @@ class Solution {
 public:
     bool validTicTacToe(vector<string>& board) {
         int xs = count(board, 'X'), os = count(board, 'O');
-        return xs == os ? !winning(board, 'X') : xs == os + 1 ? !winning(board, 'O') : false;
+        bool winnerX = winning(board,'X');
+        bool winnerO = winning(board,'O');
+        if(xs==os && winnerX) return false;
+        int diff = xs-os;
+        if(!(diff>=0 && diff<=1)) return false;
+        if(xs==os+1 && winnerO) return false;
+        return true;
     }
     
     bool winning(vector<string> &board, char c) {
