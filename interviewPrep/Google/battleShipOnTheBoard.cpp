@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/battleships-in-a-board/submissions/
+
 class Solution {
 public:
     int countBattleships(vector<vector<char>>& board) {
