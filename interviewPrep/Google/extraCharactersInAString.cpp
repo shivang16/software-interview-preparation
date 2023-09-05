@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/extra-characters-in-a-string/description/
 class TrieNode{
     private: 
         unordered_map <char,TrieNode*> child;
