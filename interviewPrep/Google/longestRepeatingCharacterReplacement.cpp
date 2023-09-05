@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/longest-repeating-character-replacement/submissions/
 class Solution {
 public:
     int characterReplacement(string s, int k) {
