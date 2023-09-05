@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/evaluate-reverse-polish-notation/description/
+// https://leetcode.com/problems/evaluate-reverse-polish-notation/description
 class Solution {
 public:
     int evalRPN(vector<string>& tokens) {
