@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/total-appeal-of-a-string/
 class Solution {
 public:
     long long appealSum(string s) {
