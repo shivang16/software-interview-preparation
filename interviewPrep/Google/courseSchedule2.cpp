@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/course-schedule-ii/description/
+// https://leetcode.com/problems/course-schedule-ii/description
 class Solution {
 public:
     bool dfs(vector <int> Adj[],vector <int> &vis,stack <int> &S,int ind){
