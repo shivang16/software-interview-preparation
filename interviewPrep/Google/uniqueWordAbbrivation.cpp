@@ -1,3 +1,4 @@
+// https://www.lintcode.com/problem/648/
 class ValidWordAbbr {
     string getAbbrivation(string s){
         if(s.size()<=2) return s;
