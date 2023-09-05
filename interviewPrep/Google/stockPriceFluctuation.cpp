@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/stock-price-fluctuation/description//
+// https://leetcode.com/problems/stock-price-fluctuation/description/
 class StockPrice {
 public:
     map <int,int> orignal;
