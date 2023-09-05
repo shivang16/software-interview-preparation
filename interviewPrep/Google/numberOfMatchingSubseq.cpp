@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/number-of-matching-subsequences/description/
+// https://leetcode.com/problems/number-of-matching-subsequences
 class Solution {
 public:
     bool isSub(string word, string &s) {
