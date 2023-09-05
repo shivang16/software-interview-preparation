@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/student-attendance-record-ii/submissions/
+// https://leetcode.com/problems/student-attendance-record-ii
 #define ll long long int
 int mod=1e9+7;
 class Solution {
