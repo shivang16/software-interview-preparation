@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/count-number-of-nice-subarrays/description/
+// https://leetcode.com/problems/count-number-of-nice-subarrays
 class Solution {
 public:
     int subArray(vector<int>& nums, int k) {
