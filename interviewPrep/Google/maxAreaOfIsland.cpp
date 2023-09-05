@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/max-area-of-island/description/
+// https://leetcode.com/problems/max-area-of-island/description
 class Solution {
 public:
     int X[4] = {1,-1,0,0};
