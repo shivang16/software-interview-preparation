@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/redundant-connection/description/
+// https://leetcode.com/problems/redundant-connection
 class Solution {
 public:
     //Parent, size
