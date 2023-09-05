@@ -1,24 +1,25 @@
+// https://leetcode.com/problems/is-graph-bipartite/submissions/
 class Solution {
 public:
-    bool canCol(vector<vector<int>>& graph, vector <int> &col,int ind,int crnt){
-        col[ind] = crnt;
-        for(auto i:graph[ind]){
-            if(col[i]==-1){
-                if(!canCol(graph,col,i,!crnt)) return false;
-            }else{
-                if(col[i]==col[ind]) return false;
-            }
+    bool applyCol(vector <vector <int>>& graph, vector <int> &col,int u,int crntCol){
+        col[u] = crntCol;
+        bool ans = true;
+        for(auto v:graph[u]){
+            if(col[v]==-1){
+                ans &= applyCol(graph,col,v,!crntCol);
+            }else if(col[v]==crntCol) return false;
         }
-        return true;
+        return ans;
     }
     bool isBipartite(vector<vector<int>>& graph) {
         int n = graph.size();
         vector <int> col(n,-1);
         for(int i=0;i<n;i++){
             if(col[i]==-1){
-                if(!canCol(graph,col,i,0)) return false;
+                bool ans = applyCol(graph,col,i,0);
+                if(!ans) return false;
             }
-        }
+        }        
         return true;
     }
 };
