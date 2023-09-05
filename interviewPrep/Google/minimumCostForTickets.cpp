@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/minimum-cost-for-tickets/submissions/
 class Solution {
 public:
     int mincostTickets(vector<int>& days, vector<int>& costs) {
