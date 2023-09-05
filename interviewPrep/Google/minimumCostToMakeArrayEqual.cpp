@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/minimum-cost-to-make-array-equal/description/
 class Solution {
 public:
     long long calculateCost(vector <pair <int,int>> &Wg,int target){
