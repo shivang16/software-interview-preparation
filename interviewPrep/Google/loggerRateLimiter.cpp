@@ -1,3 +1,4 @@
+// https://www.lintcode.com/problem/3620/
 using namespace std;
 class Logger {
 public:
