@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/description
+// https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
