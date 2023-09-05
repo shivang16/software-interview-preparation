@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/minimum-path-sum/submissions/
+// https://leetcode.com/problems/minimum-path-sum/submissions
 class Solution {
 public:
     int minPathSum(vector<vector<int>>& grid) {
