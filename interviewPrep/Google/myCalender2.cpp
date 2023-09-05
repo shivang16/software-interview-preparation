@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/my-calendar-ii/description/
+// https://leetcode.com/problems/my-calendar-ii
 class MyCalendarTwo {
 public:
     map <int,int> M;
