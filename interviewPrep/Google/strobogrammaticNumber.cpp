@@ -1,3 +1,4 @@
+// https://www.lintcode.com/problem/644/
 class Solution {
 private:
     unordered_map <char,char> M;
