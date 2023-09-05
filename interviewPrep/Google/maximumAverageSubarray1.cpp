@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/maximum-average-subarray-i/submissions/
 class Solution {
 public:
     double findMaxAverage(vector<int>& nums, int k) {
