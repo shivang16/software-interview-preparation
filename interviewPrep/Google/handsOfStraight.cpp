@@ -1,3 +1,4 @@
+//https://leetcode.com/problems/hand-of-straights/
 class Solution {
 public:
     bool isNStraightHand(vector<int>& nums, int k) {
