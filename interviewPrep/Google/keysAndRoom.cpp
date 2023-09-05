@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/keys-and-rooms/submissions/
+// https://leetcode.com/problems/keys-and-rooms/submissions
 class Solution {
 public:
     void dfs(vector<vector<int>>& rooms, vector <bool> &vis,int ind){
