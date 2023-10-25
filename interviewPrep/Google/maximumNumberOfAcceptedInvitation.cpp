@@ -1,4 +1,4 @@
-//  https://leetcode.chttps://leetcode.com/problems/maximum-number-of-accepted-invitations/a/all/1820.html
+// https://leetcode.ca/all/1820.html
 int maximumInvitation(vector <vector <int>> &grid){
     int m = grid.size(), n = grid[0].size();
     vector <bool> vis(n,false);
